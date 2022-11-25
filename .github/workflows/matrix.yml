@@ -1,7 +1,7 @@
 name: matrix action
 on: push
 jobs:
-  verify_system:
+  build:
     strategy:
       matrix:
         node-version: [12, 14, 16],
