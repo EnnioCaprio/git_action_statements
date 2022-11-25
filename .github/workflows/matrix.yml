@@ -3,6 +3,7 @@ on: push
 jobs:
   build:
     strategy:
+    continue-on-error: true
       matrix:
         node-version: [12, 14, 16]
         operating-system: [ubuntu-latest, windows-latest]
