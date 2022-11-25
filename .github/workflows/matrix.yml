@@ -1,9 +1,5 @@
 name: matrix action
-on:
-  push:
-    branches:
-      - master
-
+on: push
 jobs:
   verify_system:
     strategy:
